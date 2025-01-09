@@ -3,7 +3,7 @@ import "./App.css";
 import UniwearPage from "./components/UniwearPage/UniwearPage";
 import { ProductDetail } from "./components/ProductDetail/ProductDetail";
 import Header from "./components/Header/Header";
-import { CartLayout } from "./components/CartLayout/CartLayout";
+import ShoppingCartLayout from "./components/ShoppingCartLayout/ShoppingCartLayout";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<UniwearPage></UniwearPage>}></Route>
         <Route path="/Product" element={<ProductDetail></ProductDetail>}></Route>
-        <Route path="/Checkout" element={<CartLayout></CartLayout>}></Route>
+        <Route path="/Checkout" element={<ShoppingCartLayout></ShoppingCartLayout>}></Route>
       </Routes>
     </>
   );
